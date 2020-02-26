@@ -8,14 +8,18 @@ body{background:#f4f4f4;}
   }
   th{@extend td;background:#f4f4f4;}
 }
-.content-area{padding:0px 15px;min-height:400px;
+.content-area{padding:0px 15px;min-height:400px;@media only screen and (max-width: 767px){padding:0px 10px;}
+ .table-container{width:100%;overflow:hidden;overflow-x:auto;}                                                                                                              overflow: hidden;
+
 .topbar{margin:40px 0px 40px 0px;width:100%;float:left;
 .Searchbar{max-width:400px;width:100%;position:relative;
+@media only screen and (max-width: 767px) {max-width:100%;}
 input{border: 2px solid #00bfbf;padding:5px;float:left;width:80%;min-height:40px;border-top-left-radius:3px;border-bottom-left-radius:3px;box-shadow:none;}
 button{background:#00bfbf;color:#fff;border: 2px solid #00bfbf;padding:5px;float:left;width:20%;min-height:40px;border-top-right-radius:3px;border-bottom-right-radius:3px;box-shadow:none;}
 }
 nav{float:right;
-li{list-style-type:none;display:inline-block;margin:0px 10px;
+@media only screen and (max-width: 767px) {width:100%;text-align:left;margin:10px 0px;}
+li{list-style-type:none;display:inline-block;margin:0px 0px;
 a{background:#00bfbf; color:#fff;padding:5px;box-sizing:border-box;border-radius:3px;text-decoration:none;line-height:30px;display:inline-block;}
 
 }

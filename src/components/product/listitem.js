@@ -55,7 +55,6 @@ ajaxCall(reqObj).then((res) => {
  });
 }
 render(){
-console.log(this.props.data);
 const {name,price,discount,desc,id}=this.props.data;
 return(
    <React.Fragment>

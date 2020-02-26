@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 class List extends Component{
 render(){
 return(
+   <div className="table-container">
    <table cellspacing="0" className="product-list">
    <tr>
    <th>Name</th>
@@ -18,7 +19,9 @@ return(
        })
    }
    </table>
+   </div>
 )
+
 }
 }
 // Take value from store
